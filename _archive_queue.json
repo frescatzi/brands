@@ -3,5 +3,10 @@
     "path": "raw/2026-07-07--pos-lumina-auto-ingest-raw-vers-wiki-2026-07-07.md",
     "category": "Automatisation (n8n)",
     "processed_at": "2026-07-07"
+  },
+  {
+    "path": "AFTRSN/raw/2026-07-20--passation-incidents-memoire-et-intake-2026-07-05.md",
+    "category": "Passation / journal d'incidents",
+    "processed_at": "2026-07-20"
   }
 ]
