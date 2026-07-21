@@ -13,3 +13,4 @@
 ## [2026-07-21] ingest | AFTRSN | aftrsn/raw/2026-07-21--aftrsn-marcheasuivre-construction-n8n.md -> AFTRSN/wiki/methode-construction-workflow-n8n.md (nouveau raw arrivé dans un dossier parasite `aftrsn/` en minuscules — page compilée dans le dossier canonique `AFTRSN/wiki/`, cf. brand du frontmatter)
 ## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--pos-aftrsn-backfill-outreach-manuel-20260705.md -> AFTRSN/wiki/backfill-outreach-manuel.md
 ## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--pos-aftrsn-capture-connaissance-debrief-20260706.md -> AFTRSN/wiki/workflow-knowledge-capture-debrief-post-event.md
+## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--pos-aftrsn-repondeur-email-drafts-agent-20260704.md -> AFTRSN/wiki/workflow-repondeur-email-drafts.md
