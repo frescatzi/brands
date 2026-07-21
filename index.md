@@ -13,7 +13,7 @@ updated: 2026-07-21
 
 ### AFTRSN
 - Dossier : `AFTRSN/`
-- Concepts (wiki/) : [[architecture-processus-metier]] — architecture par processus métier (chaîne P1→P5, Maestro/Hermès) ; [[methode-construction-workflow-n8n]] — méthode & pièges de construction d'un workflow n8n
+- Concepts (wiki/) : [[architecture-processus-metier]] — architecture par processus métier (chaîne P1→P5, Maestro/Hermès) ; [[methode-construction-workflow-n8n]] — méthode & pièges de construction d'un workflow n8n ; [[backfill-outreach-manuel]] — intégrer un contact démarché manuellement dans l'outreach automatisé
 - Agents : _(aucun)_
 - Skills : _(aucun)_
 
