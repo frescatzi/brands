@@ -13,7 +13,7 @@ updated: 2026-06-20
 
 ### AFTRSN
 - Dossier : `AFTRSN/`
-- Concepts (wiki/) : _(vide — première ingestion à venir)_
+- Concepts (wiki/) : [[architecture-processus-metier]] — architecture par processus métier (chaîne P1→P5, Maestro/Hermès)
 - Agents : _(aucun)_
 - Skills : _(aucun)_
 
