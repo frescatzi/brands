@@ -2,7 +2,7 @@
 type: index
 title: "Index — brands"
 vault: brands
-updated: 2026-06-20
+updated: 2026-07-21
 ---
 
 # Index — coffre `brands`
@@ -13,7 +13,7 @@ updated: 2026-06-20
 
 ### AFTRSN
 - Dossier : `AFTRSN/`
-- Concepts (wiki/) : [[architecture-processus-metier]] — architecture par processus métier (chaîne P1→P5, Maestro/Hermès)
+- Concepts (wiki/) : [[architecture-processus-metier]] — architecture par processus métier (chaîne P1→P5, Maestro/Hermès) ; [[methode-construction-workflow-n8n]] — méthode & pièges de construction d'un workflow n8n
 - Agents : _(aucun)_
 - Skills : _(aucun)_
 
