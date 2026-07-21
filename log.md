@@ -14,3 +14,4 @@
 ## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--pos-aftrsn-backfill-outreach-manuel-20260705.md -> AFTRSN/wiki/backfill-outreach-manuel.md
 ## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--pos-aftrsn-capture-connaissance-debrief-20260706.md -> AFTRSN/wiki/workflow-knowledge-capture-debrief-post-event.md
 ## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--pos-aftrsn-repondeur-email-drafts-agent-20260704.md -> AFTRSN/wiki/workflow-repondeur-email-drafts.md
+## [2026-07-21] ingest | AFTRSN | AFTRSN/raw/2026-07-21--aftrsn-lumina-marche-a-suivre-exacte-reparation-recuperation-apres-rename-lumina-memory-ingestion-bible-de-marque-depuis-drive-etape-4-mvp-2026-06-30.md ignoré pour wiki (marche à suivre / journal de débogage n8n-pgvector, hors périmètre marque — ajouté à _archive_queue.json)
