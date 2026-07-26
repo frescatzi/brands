@@ -1,0 +1,195 @@
+# Journal : AFTRSN
+
+> Chronologie des sources ingérées (reconstituée). Append-only ensuite.
+
+## [2026-06-24] ingest : 2026-06-19_session_memoire-centrale_etapes-1-2
+## [2026-06-24] ingest : 2026-06-20_session_agents-orchestration-mcp
+## [2026-06-24] ingest : Architecture_Connaissance_Obsidian_Centric
+## [2026-06-24] ingest : Claude_Review_Knowledge_Governance_Layer_v1
+## [2026-06-24] ingest : Inventaire_Workflows_n8n_LUMINA
+## [2026-06-24] ingest : Memoire_Centrale_ASP_Brief_Construction
+## [2026-06-24] ingest : PASSATION_Knowledge-Architecture_2026-06-22-23
+## [2026-06-24] ingest : Plan_Demarrage_Memoire_Centrale_MVP
+## [2026-06-24] ingest : Session-Recap-n8n-Agents-AI
+## [2026-06-24] ingest : lumina-systeme-reference
+## [2026-06-29] ingest : Architecture_Connaissance_Obsidian_Centric
+## [2026-06-29] ingest : Claude_Review_Knowledge_Governance_Layer_v1
+## [2026-06-29] ingest : Plan_Demarrage_Memoire_Centrale_MVP
+## [2026-07-02] ingest : 2026-06-19_session_memoire-centrale_etapes-1-2
+## [2026-07-02] ingest : 2026-06-20_session_agents-orchestration-mcp
+## [2026-07-02] ingest : AFTRSN · Cadrage organisation d'agents (roster complet + modele de collaboration + checklist ce soir apres Hermes) · 2026-06-30
+## [2026-07-02] ingest : AFTRSN · System-prompts 1ere vague (Maestro + 2 experts + Secretaire) + cablage memoire · 2026-07-01
+## [2026-07-02] ingest : AFTRSN · System-prompts 1ere vague (Maestro + 3 experts + Secretaire) + cablage memoire · 2026-07-01
+## [2026-07-02] ingest : AFTRSN · System-prompts 1ere vague v2 (Maestro + Culture + Experience + Secretaire + Marketing) · 2026-07-01
+## [2026-07-02] ingest : AFTRSN-LUMINA · Etape 2 · DDL pret a executer (memory_registry + aftrsn_memory) + plan rename supervise
+## [2026-07-02] ingest : AFTRSN-LUMINA · Marche a suivre EXACTE · Reparation pipeline memoire (credential OpenAI + INSERT parametre) et etat des lieux agents · 2026-06-29
+## [2026-07-02] ingest : AFTRSN-LUMINA · POS EXACT · Hermes Agent sur Coolify (deploiement, acces, depannage) · 2026-07-01
+## [2026-07-02] ingest : AFTRSN-LUMINA · POS EXACT · Runbook ingestion bible de marque (Drive PDF vers aftrsn_memory) et recuperation simplifiee
+## [2026-07-02] ingest : AFTRSN-LUMINA · POS EXACT · Runbook memoire centrale (asp_memory) et agents AFTRSN
+## [2026-07-02] ingest : AFTRSN-LUMINA · POS EXACT · Runbook memoire multi-banques (ajouter une marque, ingerer, router)
+## [2026-07-02] ingest : AFTRSN-LUMINA · Plan de projet LUMINA AI OS · etapes achevees et a venir · 2026-07-01
+## [2026-07-02] ingest : Architecture_Connaissance_Obsidian_Centric
+## [2026-07-02] ingest : Claude_Review_Knowledge_Governance_Layer_v1
+## [2026-07-02] ingest : Inventaire_Workflows_n8n_LUMINA
+## [2026-07-02] ingest : MILESTONE_Agents-AFTRSN-etat-reel-n8n_2026-07-02
+## [2026-07-02] ingest : Memoire_Centrale_ASP_Brief_Construction
+## [2026-07-02] ingest : PASSATION_Agents-AFTER-SUN-PEOPLE_etat-des-lieux_version-Claude-Code_revision
+## [2026-07-02] ingest : PASSATION_Knowledge-Architecture_2026-06-22-23
+## [2026-07-02] ingest : PASSATION_LUMINA-AI-OS_2026-07-02
+## [2026-07-02] ingest : PLAN-PROJET_LUMINA-AI-OS_2026-07-02
+## [2026-07-02] ingest : POS-AFTRSN_Cablage-Maestro-subagents-Router_2026-07-02
+## [2026-07-02] ingest : POS-AFTRSN_Clonage-roster-agents-nouvelle-marque_2026-07-02
+## [2026-07-02] ingest : POS-AFTRSN_Hermes-outil-Ops-agents_2026-07-02
+## [2026-07-02] ingest : POS-AFTRSN_Ingestion-texte-et-recursion-Drive_2026-07-02
+## [2026-07-02] ingest : POS-AFTRSN_Memoire-episodique-consolidation-RAG_2026-07-02
+## [2026-07-02] ingest : POS-AFTRSN_Skills-library-Hermes-apprenant_2026-07-02
+## [2026-07-02] ingest : Plan_Demarrage_Memoire_Centrale_MVP
+## [2026-07-02] ingest : Session-Recap-n8n-Agents-AI
+## [2026-07-02] ingest : ingest
+## [2026-07-02] ingest : sync
+## [2026-07-04] ingest : Concept_Runbook_Definition-et-Usage-LUMINA
+## [2026-07-06] ingest : BIBLE_LUMINA-OS_360_2026-07-02
+## [2026-07-06] ingest : MILESTONE_Agents-AFTRSN-etat-reel-n8n_2026-07-02
+## [2026-07-06] ingest : MILESTONE_Clarification-Hermes-et-processus-connaissance_2026-07-03
+## [2026-07-06] ingest : PASSATION_LUMINA-AI-OS_2026-07-02
+## [2026-07-06] ingest : PASSATION_LUMINA-OS_Inventaire-360_2026-07-02
+## [2026-07-06] ingest : POS-AFTRSN_Backfill-Outreach-Manuel_20260705
+## [2026-07-06] ingest : POS-AFTRSN_Cablage-Maestro-subagents-Router_2026-07-02
+## [2026-07-06] ingest : POS-AFTRSN_Capture-Connaissance-Debrief_20260706
+## [2026-07-06] ingest : POS-AFTRSN_Clonage-roster-agents-nouvelle-marque_2026-07-02
+## [2026-07-06] ingest : POS-AFTRSN_Hermes-outil-Ops-agents_2026-07-02
+## [2026-07-06] ingest : POS-AFTRSN_Ingestion-texte-et-recursion-Drive_2026-07-02
+## [2026-07-06] ingest : POS-AFTRSN_Memoire-episodique-consolidation-RAG_2026-07-02
+## [2026-07-06] ingest : POS-AFTRSN_Skills-library-Hermes-apprenant_2026-07-02
+## [2026-07-07] ingest : 2026-07-07--TEST-AFTSRN-Brands-04
+## [2026-07-07] ingest : AFTRSN-LUMINA · POS EXACT · Hermes Agent sur Coolify (deploiement, acces, depannage) · 2026-07-01
+## [2026-07-07] ingest : AFTRSN-LUMINA · POS EXACT · Runbook ingestion bible de marque (Drive PDF vers aftrsn_memory) et recuperation simplifiee
+## [2026-07-07] ingest : AFTRSN-LUMINA · POS EXACT · Runbook memoire centrale (asp_memory) et agents AFTRSN
+## [2026-07-07] ingest : AFTRSN-LUMINA · POS EXACT · Runbook memoire multi-banques (ajouter une marque, ingerer, router)
+## [2026-07-07] ingest : AFTRSN-LUMINA · Plan de projet LUMINA AI OS · etapes achevees et a venir · 2026-07-01
+## [2026-07-07] ingest : AFTRSN_Architecture_Processus_20260704
+## [2026-07-07] ingest : AFTRSN_Brand_Voice_Generic
+## [2026-07-07] ingest : AFTRSN_MarcheASuivre_Construction-n8n
+## [2026-07-07] ingest : AFTRSN_SOP_Event-Creation_W1
+## [2026-07-07] ingest : Architecture_Connaissance_Obsidian_Centric
+## [2026-07-07] ingest : FICHE_PROJET_AFTRSN_Automation
+## [2026-07-07] ingest : Fiche_AFTRSN-Artist-Coordinator_20260705
+## [2026-07-07] ingest : Fiche_AFTRSN-Budget-Tracker_20260705
+## [2026-07-07] ingest : Fiche_AFTRSN-Email-Responder_20260704
+## [2026-07-07] ingest : Fiche_AFTRSN-Event-Creator_20260703
+## [2026-07-07] ingest : Fiche_AFTRSN-Knowledge-Capture_20260706
+## [2026-07-07] ingest : Fiche_AFTRSN-Marketing-Planner_20260705
+## [2026-07-07] ingest : Fiche_AFTRSN-Venue-Coordinator_20260704
+## [2026-07-07] ingest : PASSATION_AFTRSN_AutomationArchitecture_20260702
+## [2026-07-07] ingest : PASSATION_AFTRSN_ProchainesEtapes_20260703
+## [2026-07-07] ingest : PASSATION_AFTRSN_ProchainesEtapes_20260704
+## [2026-07-07] ingest : PASSATION_AFTRSN_ProchainesEtapes_20260705
+## [2026-07-07] ingest : PASSATION_AFTRSN_ProchainesEtapes_20260705-NUIT
+## [2026-07-07] ingest : PASSATION_AFTRSN_ProchainesEtapes_20260705-SOIR
+## [2026-07-07] ingest : PASSATION_AFTRSN_ProchainesEtapes_20260706
+## [2026-07-07] ingest : PLAN-PROJET_LUMINA-AI-OS_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Backfill-Outreach-Manuel_20260705
+## [2026-07-07] ingest : POS-AFTRSN_Cablage-Maestro-subagents-Router_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Calendrier-Contenu-Agent-Notion_20260705
+## [2026-07-07] ingest : POS-AFTRSN_Capture-Connaissance-Debrief_20260706
+## [2026-07-07] ingest : POS-AFTRSN_Clonage-roster-agents-nouvelle-marque_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Hermes-outil-Ops-agents_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Ingestion-texte-et-recursion-Drive_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Memoire-episodique-consolidation-RAG_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Outreach-Relances-Notion-Drafts_20260704
+## [2026-07-07] ingest : POS-AFTRSN_Repondeur-Email-Drafts-Agent_20260704
+## [2026-07-07] ingest : POS-AFTRSN_Skills-library-Hermes-apprenant_2026-07-02
+## [2026-07-07] ingest : POS-AFTRSN_Suivi-Budget-Sheets-Notion_20260705
+## [2026-07-07] ingest : POS-GENERIQUE_Outreach-Relances-Base-Drafts_20260704
+## [2026-07-07] ingest : RECAP_Session_20260703_W1-n8n-Build
+## [2026-07-07] ingest : SYSTEM-CANON_LUMINA_2026-07-03
+## [2026-07-07] ingest : Spec_AFTRSN-Knowledge-Capture_W7_20260705
+## [2026-07-07] ingest : Test Brands Auto-Ingest
+## [2026-07-07] ingest : W1_Decoupage_Sous-Workflows_20260703
+## [2026-07-07] ingest : W1_Event-Creator_Flowchart_Spec_20260702
+## [2026-07-20] ingest : PASSATION_Incidents-memoire-et-intake_2026-07-05
+## [2026-07-21] ingest : AFTRSN-LUMINA · Marche a suivre EXACTE · Reparation pipeline memoire (credential OpenAI + INSERT parametre) et etat des lieux agents · 2026-06-29
+## [2026-07-21] ingest : AFTRSN-LUMINA · Marche a suivre EXACTE · Reparation recuperation apres rename lumina_memory + ingestion bible de marque depuis Drive (etape 4 MVP) · 2026-06-30
+## [2026-07-21] ingest : AFTRSN-LUMINA · POS EXACT · Hermes Agent sur Coolify (deploiement, acces, depannage) · 2026-07-01
+## [2026-07-21] ingest : AFTRSN-LUMINA · POS EXACT · LUMINA-AI-Router (routage multi-LLM via OpenRouter) · 2026-07-01
+## [2026-07-21] ingest : AFTRSN-LUMINA · POS EXACT · Runbook memoire centrale (asp_memory) et agents AFTRSN
+## [2026-07-21] ingest : AFTRSN-LUMINA · POS EXACT · Synchronisation mobile Obsidian CouchDB LiveSync · 2026-07-08
+## [2026-07-21] ingest : AFTRSN-LUMINA · Plan de projet LUMINA AI OS · etapes achevees et a venir · 2026-07-01
+## [2026-07-21] ingest : AFTRSN_Architecture_Processus_20260704
+## [2026-07-21] ingest : AFTRSN_Budget_How-To_SOP
+## [2026-07-21] ingest : CANON_LUMINA-Hermes-Agent_2026-07-12
+## [2026-07-21] ingest : CARTOGRAPHIE_Automatisation-n8n-Notion_Evenementiel-et-Hors-evenementiel_2026-07-17
+## [2026-07-21] ingest : CONCEPT_Backstage-v3_Deux-Mondes_2026-07-16
+## [2026-07-21] ingest : GUIDE-BUILD_LUMINA-M3-Memory-Search_2026-07-09
+## [2026-07-21] ingest : GUIDE-BUILD_LUMINA-M5-Gmail-Ops_2026-07-12
+## [2026-07-21] ingest : GUIDE-BUILD_LUMINA-M6-Calendar-Ops_2026-07-13
+## [2026-07-21] ingest : POS-AFTRSN_Backfill-Outreach-Manuel_20260705
+## [2026-07-21] ingest : POS-AFTRSN_Branchement-Business-Maestro_2026-07-11
+## [2026-07-21] ingest : POS-AFTRSN_Cablage-Maestro-subagents-Router_2026-07-02
+## [2026-07-21] ingest : POS-AFTRSN_Calendrier-Contenu-Agent-Notion_20260705
+## [2026-07-21] ingest : POS-AFTRSN_Capture-Connaissance-Debrief_20260706
+## [2026-07-21] ingest : POS-AFTRSN_Clonage-roster-agents-nouvelle-marque_2026-07-02
+## [2026-07-21] ingest : POS-AFTRSN_Hermes-outil-Ops-agents_2026-07-02
+## [2026-07-21] ingest : POS-AFTRSN_Ingestion-texte-et-recursion-Drive_2026-07-02
+## [2026-07-21] ingest : POS-AFTRSN_Outreach-Relances-Notion-Drafts_20260704
+## [2026-07-21] ingest : POS-AFTRSN_Repondeur-Email-Drafts-Agent_20260704
+## [2026-07-21] ingest : POS-AFTRSN_Skills-library-Hermes-apprenant_2026-07-02
+## [2026-07-21] ingest : POS-AFTRSN_Suivi-Budget-Sheets-Notion_20260705
+## [2026-07-21] ingest : POS-EXACT_Allocation-modeles-LLM_2026-07-15
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M1-EDITION-WATCHER_a-jour_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M1-orchestrateur-edition-checklist-brief_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M1b-Iris-auto-declenchement_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M2-copy-runner_2026-07-18
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M2-refonte-depot-direct-par-canal_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M3-M4-fiabilisation-scan_2026-07-18
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M3-visual-tracker_2026-07-18
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M4-fix-paid-external_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M4-wix-event-runner_2026-07-18
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M5-newsletter-tracker_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M5b-newsletter-metrics-runner_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M5c-website-metrics-runner_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M6-instagram-tracker_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M8-kpi-dashboard-seeder_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M8-moitie2-convergence-recap_2026-07-20
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_M9-verification-finale-cloture_2026-07-20
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_anti-repetition-inter-vagues_2026-07-20
+## [2026-07-21] ingest : POS-EXACT_AutoEvent-P3_repointage-M4-M5-migration-intake_2026-07-19
+## [2026-07-21] ingest : POS-EXACT_Backstage-P2_P2-1-credential-notion-n8n_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Backstage-P2_P2-2-task-runner-lecture-garde-fou_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Backstage-P2_P2-3-ecriture-controlee_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Backstage-P2_P2-4-P2-5-hermes-boucle-complete_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_A2-cockpit-human-space_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_A3-cockpit-sur-page-human-space_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_N1-executor_2026-07-16
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_N2-human-space_2026-07-16
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_N3-agent-space_2026-07-16
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_N4-portail-cockpit_2026-07-16
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_N5-sidebar_2026-07-16
+## [2026-07-21] ingest : POS-EXACT_Backstage-v3_N6-verification-finale_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Branchement-Business-Maestro_2026-07-11
+## [2026-07-21] ingest : POS-EXACT_Etat-conversation-clarification-Gateway_2026-07-12
+## [2026-07-21] ingest : POS-EXACT_Fiabilisation-orchestration-Maestro-latence_2026-07-12
+## [2026-07-21] ingest : POS-EXACT_Iris-qualite_Peupler-canon-memoire-marque_2026-07-20
+## [2026-07-21] ingest : POS-EXACT_Iris-qualite_Retouche-prompt-Iris_2026-07-20
+## [2026-07-21] ingest : POS-EXACT_LUMINA-accueil-glossaire-portes-team-space_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_LUMINA-demenagement-espace-notion-et-renommage-token_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Procedures_F1-task-lifecycle_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Procedures_F2-validate-agent-work_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Procedures_F3-the-cockpit_2026-07-17
+## [2026-07-21] ingest : POS-EXACT_Telegram-Calendar-Ops_2026-07-13
+## [2026-07-21] ingest : POS-EXACT_chemin-business-Maestro_2026-07-11
+## [2026-07-21] ingest : POS-GENERIQUE_Bibliotheque-de-skills-apprenante-agents
+## [2026-07-21] ingest : POS-GENERIQUE_Ingestion-multi-format-vers-banque-vectorielle
+## [2026-07-21] ingest : POS-GENERIQUE_Suivi-Budget-Sheets-Base_20260705
+## [2026-07-21] ingest : POS-GENERIQUE_recette-cloture-verification-finale-moteur-multi-workflow_2026-07-20
+## [2026-07-21] ingest : POS-GENERIQUE_runner-lire-livrables-anterieurs-injecter-contrainte-negative-anti-repetition_2026-07-20
+## [2026-07-21] ingest : POS-GENERIQUE_runner-releve-metriques-entite-page-modele-analytique-filtrable-garde-etat_2026-07-19
+## [2026-07-21] ingest : POS-GENERIQUE_runner-tache-checklist-vers-agent-LLM-brouillons-multiplateformes-a-valider_2026-07-18
+## [2026-07-21] ingest : POS-GENERIQUE_runner-tracker-consommer-tache-checklist-remplir-livrable-pret-a-coller-gate-humain_2026-07-19
+## [2026-07-21] ingest : POS-LUMINA_Audit-edition-workflows-n8n-API-interne_2026-07-02
+## [2026-07-21] ingest : POS-LUMINA_Etat-conversation-clarification-Gateway_2026-07-12
+## [2026-07-21] ingest : POS-LUMINA_Fiabilisation-orchestration-Maestro-latence_2026-07-12
+## [2026-07-21] ingest : POS-LUMINA_Fix-Knowledge-JSON-body-Maestro_2026-07-09
+## [2026-07-21] ingest : POS-LUMINA_Telegram-Gmail-Ops_2026-07-13
+## [2026-07-21] ingest : POS-LUMINA_Telegram-Memory-Search_2026-07-09
+## [2026-07-21] ingest : STANDARD_Contenu-par-plateforme_AFTRSN_v2_2026-07-20

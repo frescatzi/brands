@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-lumina-ai-router-routage-multi-llm-via-openrouter-2026-07-01.md]
-related: [[methode-construction-workflow-n8n]], [[architecture-processus-metier]]
 updated: 2026-07-21
+related: []
 ---
 
 # AFTRSN — Workflow LUMINA-AI-Router (routage multi-LLM par task_type via OpenRouter)

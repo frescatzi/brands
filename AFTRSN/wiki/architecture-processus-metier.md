@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-architecture-processus-20260704.md]
-related: []
 updated: 2026-07-21
+related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts"]
 ---
 
 # AFTRSN — Architecture par processus métier
@@ -92,3 +92,11 @@ Remplissage du dossier photos & vidéos (créé en coquille vide par P1, usage p
 - DB cibles 🎭 : Venues, Editions, Budget & Finance (identifiants dans le raw source).
 
 Obsolète et retiré : le schéma technique W-1a→W-1g et son orchestrateur (découpait le workflow, pas le métier) ; la dépendance `folder_id` → calendrier (le calendrier pointe désormais vers la fiche Notion, hub central).
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[backfill-outreach-manuel]] : AFTRSN · Backfill : intégrer un contact démarché manuellement dans l'outreach automatisé
+- [[methode-construction-workflow-n8n]] : AFTRSN · Méthode de construction d'un workflow n8n
+- [[workflow-knowledge-capture-debrief-post-event]] : AFTRSN · Workflow Knowledge-Capture : débrief post-event vers mémoire insights
+- [[workflow-repondeur-email-drafts]] : AFTRSN · Workflow Répondeur email à brouillons (Email-Responder)
+<!-- AUTO-LIENS:fin -->

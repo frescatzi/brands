@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--pos-aftrsn-repondeur-email-drafts-agent-20260704.md]
-related: [[architecture-processus-metier]], [[methode-construction-workflow-n8n]]
 updated: 2026-07-21
+related: ["architecture-processus-metier", "methode-construction-workflow-n8n"]
 ---
 
 # AFTRSN — Workflow Répondeur email à brouillons (Email-Responder)
@@ -38,3 +38,9 @@ Les autres difficultés rencontrées sur ce build (403 Gmail par API cloud non a
 ## Leçon transverse
 
 Les retours utilisateur sur le **format des notifications** (Telegram, etc.) sont des exigences produit à part entière, pas des détails cosmétiques : pas de jargon technique dans ce qui est adressé à l'humain (règle Karter permanente, déjà appliquée au format de notification ci-dessus).
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[methode-construction-workflow-n8n]] : AFTRSN · Méthode de construction d'un workflow n8n
+<!-- AUTO-LIENS:fin -->

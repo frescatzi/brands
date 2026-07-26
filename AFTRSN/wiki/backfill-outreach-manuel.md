@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--pos-aftrsn-backfill-outreach-manuel-20260705.md]
-related: [[architecture-processus-metier]], [[methode-construction-workflow-n8n]]
 updated: 2026-07-21
+related: ["architecture-processus-metier", "methode-construction-workflow-n8n"]
 ---
 
 # AFTRSN — Backfill : intégrer un contact démarché manuellement dans l'outreach automatisé
@@ -34,3 +34,9 @@ Procédure vérifiée le 05.07.2026 (3 lieux — Maison 25, Soluna, The Palm Thr
 - **Un backfill est un test de bord du processus** : injecter une donnée ancienne (premier email vieux de plusieurs semaines) dans une séquence de relances neuve a révélé un défaut de cadence invisible sur le chemin nominal (deux relances à un jour d'intervalle, calculées à tort depuis l'origine de la séquence). Règle générale pour toute chaîne de relances : les intervalles se calculent **sur l'événement précédent de la séquence**, jamais sur son origine.
 - Conserver et réutiliser le `threadId` d'origine vaut le détour : la relance garde tout le contexte côté destinataire et évite de repartir de zéro.
 - Fiabilité UI n8n pendant l'opération : re-vérifier par capture d'écran avant chaque clic « Execute workflow » et confirmer l'apparition d'un **nouveau** run dans `/rest/executions` avant d'attendre un résultat (références DOM périmées après rechargement — voir aussi [[methode-construction-workflow-n8n]] §Refactoring et API REST interne n8n).
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[methode-construction-workflow-n8n]] : AFTRSN · Méthode de construction d'un workflow n8n
+<!-- AUTO-LIENS:fin -->

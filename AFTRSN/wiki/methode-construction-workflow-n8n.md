@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [aftrsn/raw/2026-07-21--aftrsn-marcheasuivre-construction-n8n.md]
-related: [[architecture-processus-metier]]
 updated: 2026-07-21
+related: ["architecture-processus-metier", "backfill-outreach-manuel", "workflow-repondeur-email-drafts"]
 ---
 
 # AFTRSN — Méthode de construction d'un workflow n8n
@@ -95,3 +95,10 @@ Le refactoring lourd (découpage en sous-workflows) est très lent via le canvas
 ## Règle de construction transverse
 
 Vue simple et limitée par étape : un gros processus se découpe en sous-workflows métier appelés par un orchestrateur, chaque sous-workflow ne recevant que ses propres paramètres — jamais de référence croisée `$('Node')` entre blocs (voir [[architecture-processus-metier]] §Règles de construction).
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[backfill-outreach-manuel]] : AFTRSN · Backfill : intégrer un contact démarché manuellement dans l'outreach automatisé
+- [[workflow-repondeur-email-drafts]] : AFTRSN · Workflow Répondeur email à brouillons (Email-Responder)
+<!-- AUTO-LIENS:fin -->

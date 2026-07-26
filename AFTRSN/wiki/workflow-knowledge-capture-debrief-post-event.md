@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--pos-aftrsn-capture-connaissance-debrief-20260706.md]
-related: [[architecture-processus-metier]], [[methode-construction-workflow-n8n]]
 updated: 2026-07-21
+related: ["architecture-processus-metier"]
 ---
 
 # AFTRSN — Workflow Knowledge-Capture : débrief post-event vers mémoire insights
@@ -37,3 +37,8 @@ Chaque insight est écrit avec : `collection=insights`, `knowledge_type=insight`
 - L'articulation entre « auto sur `Done` » et « fiche dédiée » n'était pas évidente au départ (risque de double déclenchement ou de fiche manquante) : tranchée par le modèle à deux phases ci-dessus, chacune avec sa propre condition d'idempotence.
 - Un pré-remplissage IA factuel combiné à un canevas fixe et déterministe est plus fiable qu'un remplissage entièrement libre : l'IA rédige le résumé, la structure ne varie jamais.
 - Toujours distinguer un bug de workflow d'une panne d'infrastructure partagée avant de « corriger » le workflow — une panne du credential Postgres le 05.07.2026 avait bloqué l'écriture mémoire indépendamment de toute logique W-7 (voir POS-LUMINA credential Postgres).
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+<!-- AUTO-LIENS:fin -->
