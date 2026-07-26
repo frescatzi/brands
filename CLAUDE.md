@@ -23,12 +23,14 @@ brands/
 ├── log.md              ← journal du coffre
 └── AFTRSN/             ← une marque = un dossier
     ├── raw/            ← sources curées & immuables (propres à la marque)
-    ├── wiki/           ← pages propres (LLM) — connaissance de la marque
+    ├── wiki/           ← pages propres (LLM), RANGÉES par type : concept/ synthese/ sop/ architecture/
     ├── agents/         ← définitions d'agents de la marque
     └── skills/         ← skills de la marque
 ```
 
 Ajouter une marque = créer un dossier `brands/<MARQUE>/` avec la même structure interne.
+
+> **Marques autorisées aujourd'hui : `AFTRSN` UNIQUEMENT** (Karter-Amaris viendra plus tard, sur décision explicite). Un nom d'outil, de plateforme ou de service (n8n, coolify, notion, obsidian, dropbox, wix, telegram, `lumina`…) n'est **JAMAIS** une marque : ce contenu va dans `ai-automation`. Ne créer un nouveau dossier-marque que sur décision du CEO.
 
 ---
 
@@ -45,6 +47,11 @@ Décision 2026-06-20 : **dossiers + tag `brand` obligatoire, escalade en instanc
 ---
 
 ## 4. Conventions
+
+### 4.0 Nommage et rangement
+- `<MARQUE>/raw/AAAA-MM-JJ--source-titre-court.md`
+- Pages wiki rangées par type : `<MARQUE>/wiki/concept/concept-nom.md`, `<MARQUE>/wiki/synthese/synthese-sujet.md`, `<MARQUE>/wiki/sop/sop-nom.md`, `<MARQUE>/wiki/architecture/<nom>.md`. **Jamais de page à la racine de `wiki/` (sauf `README.md`).** kebab-case, sans accents.
+- Backlinks `[[...]]` réciproques, aucune page orpheline (audit au lint).
 
 ### 4.1 Frontmatter `wiki/` (noter `brand` rempli)
 ```yaml
