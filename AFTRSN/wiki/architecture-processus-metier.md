@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-architecture-processus-20260704.md]
 updated: 2026-07-21
-related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts"]
+related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts", "operator-os-dashboard-mesure"]
 ---
 
 # AFTRSN — Architecture par processus métier

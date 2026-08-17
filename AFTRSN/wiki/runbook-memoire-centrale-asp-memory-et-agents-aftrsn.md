@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-07--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md]
 updated: 2026-07-21
-related: []
+related: ["operator-os-dashboard-mesure"]
 ---
 
 # AFTRSN — Runbook mémoire centrale `asp_memory` & agents

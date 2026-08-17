@@ -193,3 +193,4 @@
 ## [2026-07-21] ingest : POS-LUMINA_Telegram-Gmail-Ops_2026-07-13
 ## [2026-07-21] ingest : POS-LUMINA_Telegram-Memory-Search_2026-07-09
 ## [2026-07-21] ingest : STANDARD_Contenu-par-plateforme_AFTRSN_v2_2026-07-20
+## [2026-08-17] ingest : POS-EXACT_Operator-OS_Architecture-dashboard-et-donnees_2026-08-17
