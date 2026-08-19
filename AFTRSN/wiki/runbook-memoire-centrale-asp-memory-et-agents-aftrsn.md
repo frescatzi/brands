@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-07--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md]
 updated: 2026-07-21
-related: ["operator-os-dashboard-mesure"]
+related: ["operator-os-dashboard-mesure", "operator-os-deploiement-coolify", "architecture-processus-metier"]
 ---
 
 # AFTRSN — Runbook mémoire centrale `asp_memory` & agents
@@ -73,3 +73,10 @@ Procédure opérationnelle standardisée pour diagnostiquer et remettre en servi
 - Le SQL concaténé casse sur du markdown → toujours utiliser des paramètres (`$1..$n` + Array).
 - L'éditeur d'expression n8n auto-ferme les `{{ }}` → nettoyer après édition.
 - Toujours valider end-to-end via un appel MCP réel, pas juste le statut des workflows.
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[operator-os-dashboard-mesure]] : Operator OS · architecture du dashboard de mesure (vue Memory : banques pgvector)
+- [[operator-os-deploiement-coolify]] : Operator OS · déploiement Coolify (GitHub privé, Basic Auth, synchro base)
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+<!-- AUTO-LIENS:fin -->

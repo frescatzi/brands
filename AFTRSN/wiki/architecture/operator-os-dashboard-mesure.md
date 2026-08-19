@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-08-17--pos-exact-operator-os-architecture-dashboard-et-donnees-2026-08-17.md]
-related: [architecture-processus-metier, runbook-memoire-centrale-asp-memory-et-agents-aftrsn, workflow-lumina-ai-router]
-updated: 2026-08-17
+related: [operator-os-deploiement-coolify, architecture-processus-metier, runbook-memoire-centrale-asp-memory-et-agents-aftrsn, workflow-lumina-ai-router]
+updated: 2026-08-19
 ---
 
 # Operator OS — architecture du dashboard de mesure
@@ -46,10 +46,18 @@ Cette séparation découle d'une contrainte physique : `/opt/data` n'existe pas 
 - Le port 8090 n'est jamais exposé publiquement, seul le domaine HTTPS via le proxy Coolify l'est.
 - Les secrets sensibles (clés Anthropic, Postgres) restent dans n8n — jamais dans le code ni le repo.
 
-Pour la chaîne de déploiement complète (Coolify, GitHub privé, variables d'environnement), voir le raw `AFTRSN/raw/2026-08-17--pos-exact-operator-os-deploiement-coolify-basicauth-synchro-2026-08-17.md` (non encore compilé).
+Pour la chaîne de déploiement complète (Coolify, GitHub privé, variables d'environnement, dépannage), voir [[operator-os-deploiement-coolify]].
 
 ## Enseignements
 
 - Toujours libérer le disque avant de lancer un build Docker sur un VPS à capacité limitée (38 Go) : un disque plein bloque le helper Coolify.
 - Le build context Coolify doit contenir le code applicatif (repo Git), pas seulement le `docker-compose.yml`.
 - Un déploiement se valide par l'URL publique réelle, jamais par le seul statut affiché dans l'UI Coolify.
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[operator-os-deploiement-coolify]] : Operator OS · déploiement Coolify (GitHub privé, Basic Auth, synchro base)
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[runbook-memoire-centrale-asp-memory-et-agents-aftrsn]] : AFTRSN · Runbook mémoire centrale asp_memory & agents
+- [[workflow-lumina-ai-router]] : AFTRSN · Workflow LUMINA-AI-Router (routage multi-LLM par task_type via OpenRouter)
+<!-- AUTO-LIENS:fin -->
