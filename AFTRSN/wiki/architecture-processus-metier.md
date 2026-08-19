@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-architecture-processus-20260704.md]
-updated: 2026-07-21
-related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts", "operator-os-dashboard-mesure"]
+updated: 2026-08-19
+related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts", "operator-os-dashboard-mesure", "operator-os-deploiement-coolify"]
 ---
 
 # AFTRSN — Architecture par processus métier
@@ -99,4 +99,8 @@ Obsolète et retiré : le schéma technique W-1a→W-1g et son orchestrateur (d�
 - [[methode-construction-workflow-n8n]] : AFTRSN · Méthode de construction d'un workflow n8n
 - [[workflow-knowledge-capture-debrief-post-event]] : AFTRSN · Workflow Knowledge-Capture : débrief post-event vers mémoire insights
 - [[workflow-repondeur-email-drafts]] : AFTRSN · Workflow Répondeur email à brouillons (Email-Responder)
+- [[operator-os-dashboard-mesure]] : Operator OS · architecture du dashboard de mesure
+- [[operator-os-deploiement-coolify]] : Operator OS · déploiement Coolify (GitHub privé, Basic Auth, synchro base)
+- [[workflow-lumina-ai-router]] : AFTRSN · Workflow LUMINA-AI-Router (point d'entrée LLM unique des agents)
+- [[runbook-memoire-centrale-asp-memory-et-agents-aftrsn]] : AFTRSN · Runbook mémoire centrale asp_memory & agents
 <!-- AUTO-LIENS:fin -->

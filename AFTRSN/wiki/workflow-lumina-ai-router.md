@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-lumina-ai-router-routage-multi-llm-via-openrouter-2026-07-01.md]
 updated: 2026-07-21
-related: ["operator-os-dashboard-mesure"]
+related: ["operator-os-dashboard-mesure", "architecture-processus-metier"]
 ---
 
 # AFTRSN — Workflow LUMINA-AI-Router (routage multi-LLM par task_type via OpenRouter)
@@ -67,3 +67,9 @@ Le vrai test consiste à appeler le router depuis un workflow appelant réel (ex
 - Fallback/retry (`openrouter/auto`) et validation croisée pour les livrables critiques.
 - Brancher la mémoire (RAG pgvector) dans `task_payload.context_raw` avant l'appel LLM.
 - Moteur local pour le cas `private`/PII, conditionné à la disponibilité d'un GPU.
+
+<!-- AUTO-LIENS:début -->
+## Voir aussi
+- [[operator-os-dashboard-mesure]] : Operator OS · architecture du dashboard de mesure (vue Home : coût par provider/modèle)
+- [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier (Maestro délègue, Hermès exécute)
+<!-- AUTO-LIENS:fin -->
