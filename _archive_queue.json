@@ -3,5 +3,45 @@
     "path": "AFTRSN/raw/2026-08-17--pos-exact-operator-os-deploiement-coolify-basicauth-synchro-2026-08-17.md",
     "category": "architecture",
     "processed_at": "2026-08-19"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--2026-06-19-session-memoire-centrale-etapes-1-2.md",
+    "category": "session",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--2026-06-20-session-agents-orchestration-mcp.md",
+    "category": "session",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--architecture-connaissance-obsidian-centric.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--claude-review-knowledge-governance-layer-v1.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--inventaire-workflows-n8n-lumina.md",
+    "category": "milestone",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--memoire-centrale-asp-brief-construction.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--passation-knowledge-architecture-2026-06-22-23.md",
+    "category": "passation",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--plan-demarrage-memoire-centrale-mvp.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
   }
 ]

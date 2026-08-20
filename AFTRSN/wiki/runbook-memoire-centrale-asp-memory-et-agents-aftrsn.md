@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-07--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-02--aftrsn-lumina-marche-a-suivre-exacte-reparation-pipeline-memoire-credential-openai-insert-parametre-et-etat-des-lieux-agents-2026-06-29.md]
 updated: 2026-08-20
-related: ["operator-os-dashboard-mesure", "operator-os-deploiement-coolify", "architecture-processus-metier", "memoire-multi-marques-ingestion"]
+related: ["operator-os-dashboard-mesure", "operator-os-deploiement-coolify", "architecture-processus-metier", "memoire-multi-marques-ingestion", "lumina-intake-robot-drive-github", "lumina-publish-notion-vue-humaine"]
 ---
 
 # AFTRSN — Runbook mémoire centrale `asp_memory` & agents
@@ -82,4 +82,6 @@ Procédure opérationnelle standardisée pour diagnostiquer et remettre en servi
 - [[operator-os-deploiement-coolify]] : Operator OS · déploiement Coolify (GitHub privé, Basic Auth, synchro base)
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
 - [[memoire-multi-marques-ingestion]] : AFTRSN · Architecture successeure — banques multi-marques `lumina_memory`/`aftrsn_memory`
+- [[lumina-intake-robot-drive-github]] : AFTRSN · Maillon en amont — robot d'intake Drive→GitHub qui alimente le wiki ingéré ici
+- [[lumina-publish-notion-vue-humaine]] : AFTRSN · Dérivé parallèle — publication du même wiki vers Notion (vue humaine)
 <!-- AUTO-LIENS:fin -->

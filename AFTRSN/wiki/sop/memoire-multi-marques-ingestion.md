@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-multi-banques-ajouter-une-marque-ingerer-router.md, AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-ingestion-bible-de-marque-drive-pdf-vers-aftrsn-memory-et-recuperation-simplifiee.md, AFTRSN/raw/2026-07-02--pos-aftrsn-ingestion-texte-et-recursion-drive-2026-07-02.md]
 updated: 2026-08-20
-related: ["runbook-memoire-centrale-asp-memory-et-agents-aftrsn", "memoire-episodique-consolidation-rag", "clonage-roster-agents-nouvelle-marque", "architecture-processus-metier"]
+related: ["runbook-memoire-centrale-asp-memory-et-agents-aftrsn", "memoire-episodique-consolidation-rag", "clonage-roster-agents-nouvelle-marque", "architecture-processus-metier", "lumina-intake-robot-drive-github", "lumina-publish-notion-vue-humaine"]
 ---
 
 # AFTRSN — Mémoire multi-marques : banques, ingestion, récupération
@@ -85,4 +85,6 @@ Node `Verify Table Count` (`GROUP BY source_ref`) après chaque ingestion, puis 
 - [[memoire-episodique-consolidation-rag]] : AFTRSN · Mémoire épisodique, consolidation nocturne et RAG dans le Router
 - [[clonage-roster-agents-nouvelle-marque]] : AFTRSN · Playbook de clonage du roster d'agents vers une nouvelle marque
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[lumina-intake-robot-drive-github]] : AFTRSN · Maillon en amont — robot d'intake Drive→GitHub qui alimente le wiki ingéré ici
+- [[lumina-publish-notion-vue-humaine]] : AFTRSN · Dérivé parallèle — publication du même wiki vers Notion (vue humaine)
 <!-- AUTO-LIENS:fin -->
