@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--pos-aftrsn-capture-connaissance-debrief-20260706.md]
-updated: 2026-07-21
-related: ["architecture-processus-metier"]
+updated: 2026-08-20
+related: ["architecture-processus-metier", "memoire-episodique-consolidation-rag"]
 ---
 
 # AFTRSN — Workflow Knowledge-Capture : débrief post-event vers mémoire insights
@@ -41,4 +41,5 @@ Chaque insight est écrit avec : `collection=insights`, `knowledge_type=insight`
 <!-- AUTO-LIENS:début -->
 ## Voir aussi
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[memoire-episodique-consolidation-rag]] : AFTRSN · Mémoire épisodique, consolidation nocturne et RAG dans le Router (même sous-workflow d'écriture)
 <!-- AUTO-LIENS:fin -->

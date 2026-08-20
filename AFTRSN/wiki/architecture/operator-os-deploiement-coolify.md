@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-08-17--pos-exact-operator-os-deploiement-coolify-basicauth-synchro-2026-08-17.md]
-related: [operator-os-dashboard-mesure, architecture-processus-metier, runbook-memoire-centrale-asp-memory-et-agents-aftrsn]
-updated: 2026-08-19
+related: [operator-os-dashboard-mesure, architecture-processus-metier, runbook-memoire-centrale-asp-memory-et-agents-aftrsn, hermes-agent-deploiement-coolify]
+updated: 2026-08-20
 ---
 
 # Operator OS — déploiement Coolify (GitHub privé, Basic Auth, synchro base)
@@ -60,4 +60,5 @@ Cette séparation collecteur / serveur est structurelle et détaillée dans [[op
 - [[operator-os-dashboard-mesure]] : Operator OS · architecture du dashboard de mesure
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
 - [[runbook-memoire-centrale-asp-memory-et-agents-aftrsn]] : AFTRSN · Runbook mémoire centrale asp_memory & agents
+- [[hermes-agent-deploiement-coolify]] : AFTRSN · Hermès Agent : déploiement Coolify (accès, dépannage)
 <!-- AUTO-LIENS:fin -->

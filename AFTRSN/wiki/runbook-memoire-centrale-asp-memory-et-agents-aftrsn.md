@@ -5,9 +5,9 @@ status: draft
 publish: none
 vault: brands
 brand: AFTRSN
-sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-07--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md]
-updated: 2026-07-21
-related: ["operator-os-dashboard-mesure", "operator-os-deploiement-coolify", "architecture-processus-metier"]
+sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-07--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-runbook-memoire-centrale-asp-memory-et-agents-aftrsn.md, AFTRSN/raw/2026-07-02--aftrsn-lumina-marche-a-suivre-exacte-reparation-pipeline-memoire-credential-openai-insert-parametre-et-etat-des-lieux-agents-2026-06-29.md]
+updated: 2026-08-20
+related: ["operator-os-dashboard-mesure", "operator-os-deploiement-coolify", "architecture-processus-metier", "memoire-multi-marques-ingestion"]
 ---
 
 # AFTRSN — Runbook mémoire centrale `asp_memory` & agents
@@ -28,6 +28,8 @@ Procédure opérationnelle standardisée pour diagnostiquer et remettre en servi
 - `AFTRSN-SUPERVISOR` (dossier `AFTRSN-AGENTS`) avec 3 spécialistes dans `Sub-Agents` : `AFTRSN-BRAND-GUARDIAN`, `AFTRSN-CHANNEL-CONTENT`, `AFTRSN-ACQUISITION-PERFORMANCE`.
 - Modèle : OpenAI **gpt-4.1-mini** (Responses API), credential `OpenAi account`.
 - Outil mémoire des agents : node **`Knowledge Bank`** → webhook `memory-search`.
+
+**Convention de nommage (tranchée le 29.06.2026)** : les 4 agents restent préfixés **`AFTRSN-`** (spécifiques à la marque After Sun People), tandis que l'infrastructure partagée (MCP, workflows mémoire, ingestion, pgvector) reste préfixée **`LUMINA-`** — d'où le renommage du serveur MCP en `LUMINA-MCP-Server`. `asp_memory` a depuis évolué vers une architecture multi-banques (`lumina_memory` / `aftrsn_memory` + registre) : voir [[memoire-multi-marques-ingestion]].
 
 ## Si la mémoire ne répond plus (MCP en erreur)
 
@@ -79,4 +81,5 @@ Procédure opérationnelle standardisée pour diagnostiquer et remettre en servi
 - [[operator-os-dashboard-mesure]] : Operator OS · architecture du dashboard de mesure (vue Memory : banques pgvector)
 - [[operator-os-deploiement-coolify]] : Operator OS · déploiement Coolify (GitHub privé, Basic Auth, synchro base)
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier
+- [[memoire-multi-marques-ingestion]] : AFTRSN · Architecture successeure — banques multi-marques `lumina_memory`/`aftrsn_memory`
 <!-- AUTO-LIENS:fin -->

@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-architecture-processus-20260704.md]
-updated: 2026-08-19
-related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts", "operator-os-dashboard-mesure", "operator-os-deploiement-coolify"]
+updated: 2026-08-20
+related: ["backfill-outreach-manuel", "methode-construction-workflow-n8n", "workflow-knowledge-capture-debrief-post-event", "workflow-repondeur-email-drafts", "operator-os-dashboard-mesure", "operator-os-deploiement-coolify", "hermes-agent-deploiement-coolify", "hermes-outil-ops-agents", "cablage-maestro-subagents-router"]
 ---
 
 # AFTRSN — Architecture par processus métier
@@ -103,4 +103,7 @@ Obsolète et retiré : le schéma technique W-1a→W-1g et son orchestrateur (d�
 - [[operator-os-deploiement-coolify]] : Operator OS · déploiement Coolify (GitHub privé, Basic Auth, synchro base)
 - [[workflow-lumina-ai-router]] : AFTRSN · Workflow LUMINA-AI-Router (point d'entrée LLM unique des agents)
 - [[runbook-memoire-centrale-asp-memory-et-agents-aftrsn]] : AFTRSN · Runbook mémoire centrale asp_memory & agents
+- [[hermes-agent-deploiement-coolify]] : AFTRSN · Hermès Agent : déploiement Coolify (accès, dépannage)
+- [[hermes-outil-ops-agents]] : AFTRSN · Hermès branché comme outil Ops des agents
+- [[cablage-maestro-subagents-router]] : AFTRSN · Câblage Maestro ↔ sub-agents ↔ Router
 <!-- AUTO-LIENS:fin -->

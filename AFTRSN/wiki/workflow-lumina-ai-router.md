@@ -6,8 +6,8 @@ publish: none
 vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-21--aftrsn-lumina-pos-exact-lumina-ai-router-routage-multi-llm-via-openrouter-2026-07-01.md]
-updated: 2026-07-21
-related: ["operator-os-dashboard-mesure", "architecture-processus-metier"]
+updated: 2026-08-20
+related: ["operator-os-dashboard-mesure", "architecture-processus-metier", "memoire-episodique-consolidation-rag", "cablage-maestro-subagents-router"]
 ---
 
 # AFTRSN — Workflow LUMINA-AI-Router (routage multi-LLM par task_type via OpenRouter)
@@ -68,8 +68,12 @@ Le vrai test consiste à appeler le router depuis un workflow appelant réel (ex
 - Brancher la mémoire (RAG pgvector) dans `task_payload.context_raw` avant l'appel LLM.
 - Moteur local pour le cas `private`/PII, conditionné à la disponibilité d'un GPU.
 
+> Mise à jour 02.07.2026 : le RAG dans `context_raw` et le câblage réel Maestro→Router sont désormais en place — voir [[memoire-episodique-consolidation-rag]] et [[cablage-maestro-subagents-router]].
+
 <!-- AUTO-LIENS:début -->
 ## Voir aussi
 - [[operator-os-dashboard-mesure]] : Operator OS · architecture du dashboard de mesure (vue Home : coût par provider/modèle)
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier (Maestro délègue, Hermès exécute)
+- [[memoire-episodique-consolidation-rag]] : AFTRSN · Mémoire épisodique, consolidation nocturne et RAG dans le Router
+- [[cablage-maestro-subagents-router]] : AFTRSN · Câblage Maestro ↔ sub-agents ↔ Router
 <!-- AUTO-LIENS:fin -->
