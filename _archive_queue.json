@@ -43,5 +43,45 @@
     "path": "AFTRSN/raw/2026-06-24--plan-demarrage-memoire-centrale-mvp.md",
     "category": "spec",
     "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-24--session-recap-n8n-agents-ai.md",
+    "category": "session",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-29--architecture-connaissance-obsidian-centric.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-29--claude-review-knowledge-governance-layer-v1.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-06-29--plan-demarrage-memoire-centrale-mvp.md",
+    "category": "spec",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-07-02--2026-06-19-session-memoire-centrale-etapes-1-2.md",
+    "category": "session",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-07-02--2026-06-20-session-agents-orchestration-mcp.md",
+    "category": "session",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-07-02--aftrsn-cadrage-organisation-d-agents-roster-complet-modele-de-collaboration-checklist-ce-soir-apres-hermes-2026-06-30.md",
+    "category": "passation",
+    "processed_at": "2026-08-20"
+  },
+  {
+    "path": "AFTRSN/raw/2026-07-02--aftrsn-lumina-plan-de-projet-lumina-ai-os-etapes-achevees-et-a-venir-2026-07-01.md",
+    "category": "milestone",
+    "processed_at": "2026-08-20"
   }
 ]

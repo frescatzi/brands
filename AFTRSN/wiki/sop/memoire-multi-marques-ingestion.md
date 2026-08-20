@@ -5,7 +5,7 @@ status: draft
 publish: none
 vault: brands
 brand: AFTRSN
-sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-multi-banques-ajouter-une-marque-ingerer-router.md, AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-ingestion-bible-de-marque-drive-pdf-vers-aftrsn-memory-et-recuperation-simplifiee.md, AFTRSN/raw/2026-07-02--pos-aftrsn-ingestion-texte-et-recursion-drive-2026-07-02.md]
+sources: [AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-memoire-multi-banques-ajouter-une-marque-ingerer-router.md, AFTRSN/raw/2026-07-02--aftrsn-lumina-pos-exact-runbook-ingestion-bible-de-marque-drive-pdf-vers-aftrsn-memory-et-recuperation-simplifiee.md, AFTRSN/raw/2026-07-02--pos-aftrsn-ingestion-texte-et-recursion-drive-2026-07-02.md, AFTRSN/raw/2026-07-02--aftrsn-lumina-etape-2-ddl-pret-a-executer-memory-registry-aftrsn-memory-plan-rename-supervise.md]
 updated: 2026-08-20
 related: ["runbook-memoire-centrale-asp-memory-et-agents-aftrsn", "memoire-episodique-consolidation-rag", "clonage-roster-agents-nouvelle-marque", "architecture-processus-metier", "lumina-intake-robot-drive-github", "lumina-publish-notion-vue-humaine"]
 ---
@@ -18,7 +18,7 @@ Successeur de l'ancienne mémoire unique `asp_memory` (voir [[runbook-memoire-ce
 
 - **`lumina_memory`** — banque partagée (automation/process), héritée d'`asp_memory`.
 - **`aftrsn_memory`** — banque de la marque After Sun People, contient son canon (bible de marque).
-- **`memory_registry`** — table de routage : `code, table_name, display_name, kind('shared'|'brand'), active`.
+- **`memory_registry`** — table de routage : `code, table_name, display_name, kind('shared'|'brand'), active`. Principe anti-casse à la création : le registre **découple le code logique** (ex. `lumina`) **de la table physique** (ex. `asp_memory`) — on peut router un nouveau code vers une table existante sans rien renommer ni casser les workflows en place ; le renommage physique (ex. `asp_memory` → `lumina_memory`) devient un nettoyage cosmétique optionnel, à faire à part, en supervisé.
 - Schéma commun à toute banque : `id, title, content, collection, knowledge_type, source, source_ref, content_hash UNIQUE, embedding VECTOR(1536), created_at, updated_at`, index HNSW cosine.
 - Tags `collection` : `canon` (bible), `voice`, `ops`, `process`, `history`, `episodic`/`insights` (voir [[memoire-episodique-consolidation-rag]]).
 - Credentials : embeddings OpenAI `text-embedding-3-small` (`OpenAi account`), DB (`Postgres account`), Drive (`Google Drive account - Live`).
