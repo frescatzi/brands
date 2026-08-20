@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--pos-aftrsn-clonage-roster-agents-nouvelle-marque-2026-07-02.md]
 updated: 2026-08-20
-related: ["cablage-maestro-subagents-router", "memoire-multi-marques-ingestion", "workflow-lumina-ai-router"]
+related: ["cablage-maestro-subagents-router", "memoire-multi-marques-ingestion", "workflow-lumina-ai-router", "roster-agents-system-prompts"]
 ---
 
 # AFTRSN — Playbook : cloner le roster d'agents vers une nouvelle marque
@@ -46,4 +46,5 @@ Le Maestro cloné a en plus besoin d'un **remap** de chaque outil `toolWorkflow`
 - [[cablage-maestro-subagents-router]] : AFTRSN · Câblage Maestro ↔ sub-agents ↔ Router (roster source)
 - [[memoire-multi-marques-ingestion]] : AFTRSN · Mémoire multi-marques : banques, ingestion, récupération
 - [[workflow-lumina-ai-router]] : AFTRSN · Workflow LUMINA-AI-Router (outil partagé, jamais cloné)
+- [[roster-agents-system-prompts]] : AFTRSN · Roster d'agents : structure des system prompts et câblage n8n (roster à cloner)
 <!-- AUTO-LIENS:fin -->

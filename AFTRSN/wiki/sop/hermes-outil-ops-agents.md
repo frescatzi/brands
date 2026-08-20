@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--pos-aftrsn-hermes-outil-ops-agents-2026-07-02.md]
 updated: 2026-08-20
-related: ["hermes-agent-deploiement-coolify", "cablage-maestro-subagents-router", "architecture-processus-metier"]
+related: ["hermes-agent-deploiement-coolify", "cablage-maestro-subagents-router", "architecture-processus-metier", "roster-agents-system-prompts"]
 ---
 
 # AFTRSN — Hermès branché comme outil Ops des agents
@@ -44,4 +44,5 @@ Le chat de l'éditeur n8n n'est pas fiable pour ce type de test en automation �
 - [[hermes-agent-deploiement-coolify]] : AFTRSN · Hermès Agent : déploiement Coolify (accès, dépannage)
 - [[cablage-maestro-subagents-router]] : AFTRSN · Câblage Maestro ↔ sub-agents ↔ Router
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier (Maestro délègue, Hermès exécute)
+- [[roster-agents-system-prompts]] : AFTRSN · Roster d'agents : structure des system prompts et câblage n8n (Secrétaire et Marketing outillés par Hermès)
 <!-- AUTO-LIENS:fin -->

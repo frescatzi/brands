@@ -7,7 +7,7 @@ vault: brands
 brand: AFTRSN
 sources: [AFTRSN/raw/2026-07-02--pos-aftrsn-cablage-maestro-subagents-router-2026-07-02.md]
 updated: 2026-08-20
-related: ["workflow-lumina-ai-router", "architecture-processus-metier", "clonage-roster-agents-nouvelle-marque", "hermes-outil-ops-agents"]
+related: ["workflow-lumina-ai-router", "architecture-processus-metier", "clonage-roster-agents-nouvelle-marque", "hermes-outil-ops-agents", "roster-agents-system-prompts"]
 ---
 
 # AFTRSN — Câblage Maestro ↔ sub-agents ↔ Router
@@ -48,4 +48,5 @@ Côté Router, le contrat accepte les champs **à plat** en plus de la forme imb
 - [[architecture-processus-metier]] : AFTRSN · Architecture par processus métier (Maestro délègue, Hermès exécute)
 - [[clonage-roster-agents-nouvelle-marque]] : AFTRSN · Playbook de clonage du roster d'agents vers une nouvelle marque
 - [[hermes-outil-ops-agents]] : AFTRSN · Hermès branché comme outil Ops des agents
+- [[roster-agents-system-prompts]] : AFTRSN · Roster d'agents : structure des system prompts et câblage n8n
 <!-- AUTO-LIENS:fin -->
